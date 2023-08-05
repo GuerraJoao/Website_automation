@@ -1,0 +1,14 @@
+<testsuite name="login.Login page" tests="1" errors="0" failures="0" skipped="0" time="5.985833" timestamp="2023-08-05T17:48:32.609902" hostname="joao-pc"><testcase classname="login.Login page" name="Try to login in the site -- @1.1 Credentials" status="passed" time="5.985833"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Try to login in the site -- @1.1 Credentials
+    Given website is launched ... passed in 4.860s
+    And username standard_user is inserted ... passed in 0.387s
+    And password secret_sauce is inserted ... passed in 0.325s
+    When login button is clicked ... passed in 0.388s
+    Then login is success ... passed in 0.025s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
